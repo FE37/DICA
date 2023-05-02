@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.3s ease-in-out;
+  font-family: var(--plus-jakarta-sans);
+}
+
+:root {
+  --primary-color: #56c4f2;
+  --secondary-color: #32a9dc;
+  --third-color: #00b3ff;
+  --plus-jakarta-sans: "Plus Jakarta Sans", sans-serif;
+  --rubik: "Rubik", sans-serif;
+}
+
+/* navbar */
+.nav-link {
+  color: gray;
+}
+
+.nav-link.active {
+  color: var(--primary-color) !important;
+  font-weight: 600;
+}
+.bx-menu {
+  color: var(--primary-color);
+}
+.navbar {
+  z-index: 9;
+  background-color: white;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.068);
+}
+.navbar-toggler.active {
+  transform: rotate(90deg);
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+.nav-link:hover {
+  color: var(--primary-color);
+}
+.sign .login button {
+  background: #56c4f2;
+  border: 1px solid #56c4f2;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  padding: 6px 16px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.sign .signup button {
+  padding: 6px 16px;
+  border: none;
+  border: 1px solid #56c4f2;
+  color: var(--primary-color);
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 20px;
+  background-color: transparent;
+}
+
+/* hover */
+.sign ul li a:hover {
+  color: var(--primary-color);
+}
+.sign .login button:hover {
+  background: var(--secondary-color);
+}
+.sign .signup button:hover {
+  color: white;
+  background: var(--secondary-color);
+}
+
+/* hover */
+/* navbar */
