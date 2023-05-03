@@ -4,7 +4,7 @@
     --black: #727478;
     --grey: #7f8184;
     --yellow: #edc932;
-    --gradient: linear-gradient(45deg, #8b8acc, #bc8bcd);
+    --gradient: linear-gradient(45deg, #b1e5fb, #32a9dc);
 }
 
 *{
@@ -70,4 +70,23 @@ body{
 
 .rating-box .stars i.active{
     color: var(--yellow);
+}
+
+.rating-box input{
+    background: var(--gradient);
+    width: 100%;
+	height: 50px;
+	border: none;
+	background-size: 200%;
+    color: white;
+	outline: none;
+	cursor: pointer;
+    font-weight: 500;
+    border-radius: 10px;
+    margin-top: 25px;
+    font-size: 15px;
+}
+
+.rating-box input:hover{
+    background: #32a9dc;
 }
