@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.3s ease-in-out;
+  font-family: var(--plus-jakarta-sans);
+}
+
+:root {
+  --primary-color: #56c4f2;
+  --secondary-color: #32a9dc;
+  --third-color: #00b3ff;
+  --plus-jakarta-sans: "Plus Jakarta Sans", sans-serif;
+  --rubik: "Rubik", sans-serif;
+}
+
+/* navbar */
+.nav-link {
+  color: gray;
+}
+
+.nav-link.active {
+  color: var(--primary-color) !important;
+  font-weight: 600;
+}
+.bx-menu {
+  color: var(--primary-color);
+}
+.navbar {
+  z-index: 9;
+  background-color: white;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.068);
+}
+.navbar-toggler.active {
+  transform: rotate(90deg);
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+.nav-link:hover {
+  color: var(--primary-color);
+}
+.sign .login button {
+  background: #56c4f2;
+  border: 1px solid #56c4f2;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  padding: 6px 16px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.sign .signup button {
+  padding: 6px 16px;
+  border: none;
+  border: 1px solid #56c4f2;
+  color: var(--primary-color);
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 20px;
+  background-color: transparent;
+}
+
+/* hover */
+.sign ul li a:hover {
+  color: var(--primary-color);
+}
+.sign .login button:hover {
+  background: var(--secondary-color);
+}
+.sign .signup button:hover {
+  color: white;
+  background: var(--secondary-color);
+}
+
+/* hover */
+/* navbar */
+/* content */
+.img-logo{
+    width: 400px;
+}
+/* content */
+/* kontak */
+.kontak {
+  display: flex;
+  background-color: white;
+  padding: 100px 0;
+}
+/* .kontak-wrapper .row-1 {
+  text-align: center;
+}
+.kontak-wrapper .row-1 h1 {
+  color: var(--primary-color);
+  font-weight: 600;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.kontak-wrapper .row-1 p {
+  font-weight: 300;
+  font-size: 18px;
+  color: #7c7c7c;
+  width: 80%;
+  margin: 0 auto;
+} */
+
+.kontak-wrapper .row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  align-items: center;
+  margin-top: 80px;
+  gap: 50px;
+}
+.kontak-wrapper .row .col-1 .box {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.kontak-wrapper .row .col-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 50%;
+}
+.kontak-wrapper .row .col-1 .box h3 {
+  color: var(--primary-color);
+  font-size: 20px;
+}
+.kontak-wrapper .row .col-1 .box p {
+  color: #7c7c7c;
+  font-weight: 300;
+  margin-top: 5px;
+}
+
+.kontak-wrapper .row .form {
+  width: 50%;
+}
+.kontak-wrapper .login-content .text h1 {
+  color: var(--primary-color);
+  font-weight: 600;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.kontak-wrapper .row .col-1 .icon {
+  height: 60px;
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  color: white;
+  font-size: 24px;
+}
+.kontak-wrapper .row .form .box-kontak {
+  width: 100%;
+  padding: 40px;
+  background-color: white;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+.kontak-wrapper form {
+  font-size: 14px;
+}
+
+.kontak-wrapper .form input {
+  padding: 8px 20px;
+  border: 1px solid var(--primary-color);
+  /* border: none;
+  box-shadow: 0 0 20px #56c3f250; */
+  border-radius: 30px;
+  font-size: 16px;
+  outline: none;
+  resize: none;
+  width: 100%;
+  margin: 10px 0 20px 0;
+  color: var(--primary-color);
+}
+
+#status {
+  width: fit-content;
+  margin-right: 5px;
+}
+#check {
+  display: flex;
+}
+
+#status:checked + label {
+  color: var(--secondary-color);
+}
+.kontak-wrapper .form label {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.805);
+}
+.kontak-wrapper .form button {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.kontak-wrapper .form button[type="submit"] {
+  background: #56c4f2;
+  border: 1px solid #56c4f2;
+  border-radius: 12px;
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.kontak-wrapper #warning {
+  margin-top: 10px;
+  color: red;
+  font-size: 14px;
+  font-weight: 400;
+}
+#warning p {
+  color: green;
+}
+
+/* hover */
+.kontak-wrapper .form button[type="submit"]:hover {
+  background-color: var(--secondary-color);
+}
+/* hover */
+
+/* kontak */

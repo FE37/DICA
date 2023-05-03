@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bootstrap demo</title>
+    <title>Login</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -15,7 +15,7 @@
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="navbar.css" />
+    <link rel="stylesheet" href="login.css" />
     <!-- icon -->
     <!-- ICON -->
     <link
@@ -37,8 +37,11 @@
     <!-- navbar -->
     <nav class="navbar navbar-expand-md py-2 position-fixed w-100">
       <div class="container">
-        <a class="navbar-brand" href="#"
-          ><img src="LOGO/logo-primary.png " alt="" width="100"
+        <a class="navbar-brand" href="#">
+          <img
+            src="https://i.ibb.co/FzRc6JC/logo-primary.png"
+            alt="logo-primary"
+            width="100"
         /></a>
         <button
           class="navbar-toggler border-0"
@@ -84,5 +87,48 @@
       </div>
     </nav>
     <!-- navbar -->
+    <!-- content -->
+    <!-- kontak -->
+    <section class="kontak">
+      <div class="container">
+        <div class="kontak-wrapper">
+          <div class="row login-content">
+            <div class="col text">
+              <!-- <h1>Login</h1> -->
+              <img
+              src="https://i.ibb.co/FzRc6JC/logo-primary.png"
+              alt="logo-primary"
+              width="100"
+              class="img-logo"
+              />
+            </div>
+            <div class="col form">
+              <div class="box-kontak">
+                <form action="">
+                  User Name
+                  <input type="text" id="username" />
+                  Password
+                  <input type="password" id="password" />
+                  <button id="loginBtn" type="submit">Submit</button>
+
+                  <div id="warning"></div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- kontak -->
+    <!-- content -->
+    <!-- script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="login.js"></script>
+    <!-- script -->
   </body>
 </html>

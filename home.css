@@ -53,7 +53,7 @@
 .sign .signup button {
   padding: 6px 16px;
   border: none;
-    border: 1px solid #56c4f2;
+  border: 1px solid #56c4f2;
   color: var(--primary-color);
   font-size: 14px;
   font-weight: 500;
@@ -331,7 +331,7 @@
   overflow: hidden;
 }
 .gizi .row {
-  background-image: url("IMG/Gizi.webp");
+  background-image: url("https://i.ibb.co/LSKLxm1/Gizi.webp");
   height: 60vh;
   background-size: cover;
   background-position: center center;
@@ -948,7 +948,7 @@
     border-top: 1px solid var(--primary-color);
     margin-top: 50px;
   }
-  .ex-footer-wrapper .copyright p{
+  .ex-footer-wrapper .copyright p {
     display: block;
   }
   /* footer */
