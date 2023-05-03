@@ -53,7 +53,7 @@ font-weight: 500;
 .sign .signup button {
 padding: 6px 16px;
 border: none;
-    border: 1px solid #56c4f2;
+border: 1px solid #56c4f2;
 color: var(--primary-color);
 font-size: 14px;
 font-weight: 500;
@@ -77,10 +77,11 @@ background: var(--secondary-color);
 /* navbar */
 
 /* hero */
-.hero{
-width: 100vh;
+.hero .container-hero{
+width: 80vh;
 position: relative;
 padding-top: 5%;
+margin-left: 10px;
 }
 /* hero */
 
@@ -92,6 +93,10 @@ h2, h4{
 
 .card{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-img{
+    padding: 20px 0 20px 20px;
 }
 
 .hr-lines{
@@ -110,8 +115,8 @@ h2, h4{
     top: 50%;
   }
   
-.hero, .rekomendasi-makanan, .rekomendasi-olahraga{
-    margin: auto;
+.rekomendasi-makanan, .rekomendasi-olahraga{
+    margin: 0 20px 20px 20px;
 }
 /* content */
   
@@ -227,7 +232,7 @@ display: block;
 @media (max-width: 991.98px) {
 .hero-wrapper {
     justify-content: center;
-    padding-top: 80px;
+    padding-top: 100px;
 }
 #title {
     font-size: 36px;
