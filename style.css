@@ -103,13 +103,16 @@ h2, h4{
 .hr-lines:after{
     content:" ";
     height: 2px;
-    width: 185vh;
+    width: 50vh;
     background: #56C4F2;
     display: inline-block;
     position: absolute;
     top: 50%;
   }
   
+.hero, .rekomendasi-makanan, .rekomendasi-olahraga{
+    margin: auto;
+}
 /* content */
   
 /* footer */
