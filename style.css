@@ -61,6 +61,11 @@
   background-color: transparent;
 }
 
+#user{
+  font-size: 40px;
+  color: var(--primary-color);
+}
+
 /* hover */
 .sign ul li a:hover {
   color: var(--primary-color);
