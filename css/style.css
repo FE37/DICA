@@ -47,6 +47,8 @@ color: var(--primary-color);
     color: var(--primary-color);
 }
 
+/* update */
+
 .sign .login button {
 background: #56c4f2;
 border: 1px solid #56c4f2;
