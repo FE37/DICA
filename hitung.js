@@ -23,7 +23,7 @@ tombol.addEventListener("click", function () {
     beratBadanInput.value.trim() == ""
   ) {
     var warningText = document.getElementById("warning");
-     warningTex.innerHTML = "<p>Semua form harus di isi!</p>";
+    warningTex.innerHTML = "<p>Semua form harus di isi!</p>";
     return;
   }
   // Ambil nilai input
@@ -39,13 +39,12 @@ tombol.addEventListener("click", function () {
   } else if (jenisKelamin == "perempuan") {
     kalori = 447.6 + 9.2 * beratBadan + 3.1 * tinggiBadan - 4.3 * usia;
   }
-
   // Tentukan jenis kebutuhan kalori harian
   var jenisKalori;
   if (kalori < 1500) {
     jenisKalori = "rendah";
   } else if (kalori >= 1500 && kalori < 2500) {
-    jenisKalori = "sedang";
+    jenisKalori = "normal";
   } else {
     jenisKalori = "tinggi";
   }
@@ -58,13 +57,13 @@ tombol.addEventListener("click", function () {
   var link = document.createElement("a");
   link.innerHTML = "Lihat rekomendasi makanan";
   if (jenisKalori == "rendah") {
-    link.href = "rekomendasi/rendah.html";
-  } else if (jenisKalori == "sedang") {
-    link.href = "rekomendasi/sedang.html";
+    link.href = "rekomendasidietrendah.html";
+  } else if (jenisKalori == "normal") {
+    link.href = "rekomendasidietnormal.html";
   } else {
-    link.href = "rekomendasi/tinggi.html";
+    link.href = "rekomendasidiettinggi.html";
   }
-  var tombolHasil = document.getElementById("tombol-hasil");
-  tombolHasil.innerHTML = "";
-  tombolHasil.appendChild(link);
+  var rekomendasiDiet = document.getElementById("rekomendasi-diet");
+  rekomendasiDiet.innerHTML = "";
+  rekomendasiDiet.appendChild(link);
 });
