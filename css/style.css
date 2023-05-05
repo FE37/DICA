@@ -85,18 +85,18 @@ background: var(--secondary-color);
 /* navbar */
 
 /* hero */
-<<<<<<< HEAD:css/style.css
+
 .hero .container-hero{
 width: 80vh;
 position: sticky;
 padding-top: 10%;
 margin-left: 1%;
-=======
+}
 .hero{
 width: 100vh;
 position: relative;
 padding-top: 5%;
->>>>>>> 459d22ebf191dbbf850b01dd5a37597b3f8d6e2c:style.css
+
 }
 /* hero */
 
@@ -126,12 +126,9 @@ h2, h4{
     top: 50%;
   }
   
-<<<<<<< HEAD:css/style.css
 .rekomendasi-makanan, .rekomendasi-olahraga{
     padding: 2%;
 }
-=======
->>>>>>> 459d22ebf191dbbf850b01dd5a37597b3f8d6e2c:style.css
 /* content */
   
 /* footer */
