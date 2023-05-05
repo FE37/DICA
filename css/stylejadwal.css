@@ -40,6 +40,12 @@
 .nav-link:hover {
     color: var(--primary-color);
 }
+
+#user {
+    font-size: 40px;
+    color: var(--primary-color);
+}
+
 .sign .login button {
     background: #56c4f2;
     border: 1px solid #56c4f2;
@@ -106,6 +112,11 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
+.card-olahraga{
+    display: flex;
+    height: 100vh;
+}
+
 .days, h4{
     color: #56c4f2;
 }
@@ -122,6 +133,14 @@
 
 .jadwal{
     margin-left: 1%;
+    width: auto;
+}
+
+.background-img{
+    background-image: url("https://i.ibb.co/QYsCxQN/bg-jadwal.jpg");
+    background-size: contain;
+    /* width: auto; */
+    
 }
 
 .rekomendasi-olahraga{
