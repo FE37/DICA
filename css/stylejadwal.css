@@ -91,7 +91,7 @@
 }
 
 .judul{
-    padding-bottom: 2%;
+    padding-bottom: 1%;
 }
 
 .subjudul{
@@ -139,8 +139,9 @@
 .background-img{
     background-image: url("https://i.ibb.co/QYsCxQN/bg-jadwal.jpg");
     background-size: contain;
-    /* width: auto; */
-    
+    overflow: hidden;
+    padding-top: 50px;
+    border-radius: 2%;
 }
 
 .rekomendasi-olahraga{

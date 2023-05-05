@@ -90,7 +90,7 @@ background: var(--secondary-color);
 width: 80vh;
 position: sticky;
 padding-top: 10%;
-margin-left: 1%;
+margin-left: 3%;
 }
 .hero{
 width: 100vh;
@@ -112,22 +112,17 @@ h2, h4{
 
 .hr-lines{
     position: relative;
-    max-width: fit-content;
-    text-align: center;
+    color: #56C4F2;
+    width: auto;
 }
-
-.hr-lines:after{
-    content:" ";
-    height: 2px;
-    width: 185vh;
-    background: #56C4F2;
-    display: inline-block;
-    position: absolute;
-    top: 50%;
-  }
   
 .rekomendasi-makanan, .rekomendasi-olahraga{
     padding: 2%;
+}
+
+.row .no-gutters{
+    align-items: center;
+    padding-left: 3%;
 }
 /* content */
   
