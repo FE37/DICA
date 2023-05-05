@@ -139,8 +139,8 @@
 .background-img{
     background-image: url("https://i.ibb.co/QYsCxQN/bg-jadwal.jpg");
     background-size: contain;
-    /* width: auto; */
-    
+    overflow: hidden;
+    padding-top: 50px;    
 }
 
 .rekomendasi-olahraga{

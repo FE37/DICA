@@ -90,7 +90,7 @@ background: var(--secondary-color);
 width: 80vh;
 position: sticky;
 padding-top: 10%;
-margin-left: 1%;
+margin-left: 3%;
 }
 .hero{
 width: 100vh;
@@ -128,6 +128,11 @@ h2, h4{
   
 .rekomendasi-makanan, .rekomendasi-olahraga{
     padding: 2%;
+}
+
+.row .no-gutters{
+    align-items: center;
+    padding-left: 3%;
 }
 /* content */
   
