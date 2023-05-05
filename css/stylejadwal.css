@@ -77,10 +77,19 @@
 
 /* hero */
 .tittle{
-    width: 80vh;
+    width: auto;
     position: relative;
     padding-top: 5%;
     margin-left: 10px;
+    color: #56c4f2;
+}
+
+.judul{
+    padding-bottom: 2%;
+}
+
+.subjudul{
+    padding-bottom: 2%;
 }
 /* hero */
 
@@ -92,10 +101,12 @@
 
 .card{
     position: relative;
-    margin-left: auto;;
+    margin: auto;
+    /* width: 14rem; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.judul, .subjudul, .days{
+.days, h4{
     color: #56c4f2;
 }
 
@@ -104,6 +115,21 @@
     color: #56C4F2;
     width: auto;
 }
+
+.tittle, .rekomendasi-olahraga{
+    padding: 10% 5% 0 5%;
+}
+
+.jadwal{
+    margin-left: 1%;
+}
+
+.rekomendasi-olahraga{
+    padding-bottom: 5%;
+}
+/* .jadwal{
+
+} */
 
 /* content */
 

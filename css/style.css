@@ -82,7 +82,7 @@ background: var(--secondary-color);
 width: 80vh;
 position: sticky;
 padding-top: 10%;
-margin-left: 10px;
+margin-left: 1%;
 }
 /* hero */
 
@@ -107,7 +107,7 @@ h2, h4{
 }
   
 .rekomendasi-makanan, .rekomendasi-olahraga{
-    margin: 0 20px 20px 20px;
+    padding: 2%;
 }
 /* content */
   
