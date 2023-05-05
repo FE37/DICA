@@ -87,13 +87,10 @@ background: var(--secondary-color);
 /* hero */
 
 .hero .container-hero{
-width: 80vh;
-position: sticky;
-padding-top: 10%;
-margin-left: 3%;
+padding-top: 50px;
 }
+
 .hero{
-width: 100vh;
 position: relative;
 padding-top: 5%;
 
