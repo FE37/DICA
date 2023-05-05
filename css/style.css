@@ -112,19 +112,9 @@ h2, h4{
 
 .hr-lines{
     position: relative;
-    max-width: fit-content;
-    text-align: center;
+    color: #56C4F2;
+    width: auto;
 }
-
-.hr-lines:after{
-    content:" ";
-    height: 2px;
-    width: 185vh;
-    background: #56C4F2;
-    display: inline-block;
-    position: absolute;
-    top: 50%;
-  }
   
 .rekomendasi-makanan, .rekomendasi-olahraga{
     padding: 2%;
