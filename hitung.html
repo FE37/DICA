@@ -23,7 +23,7 @@
         <header>
             <nav class="navbar navbar-expand-md py-2 position-fixed w-100">
                 <div class="container">
-                    <a class="navbar-brand" href="#"><img  src="https://i.ibb.co/HPNc1St/logo-black.png" alt="" width="100"/></a>
+                    <a class="navbar-brand" href="#"><img  src="https://i.ibb.co/FzRc6JC/logo-primary.png" alt="" width="100"/></a>
                     <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#btn-navbar">
                         <i class="bx bx-menu fs-1"></i>
                     </button>
@@ -51,42 +51,38 @@
         </header>
 
         <!--Content-->
-        <div class="container-form">
-            <div class="row align-items-center d-flex-md-column">
-                <div class="col-md-6">
-                    <div class="pic">
-                        <img src="https://i.ibb.co/kS3J4RW/undraw-breakfast-psiw.png" alt="form diet" width="100%"/>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="hitung">
-                        <form id="form-diet" action="">
-                            <h1>TENTUKAN DIETMU</h1>
-                                <div class="txtb">
-                                    <input type="text" placeholder="Masukkan Usia Anda" />
-                                </div>
+        <section class="hitung py-5">
+            <div class="container">
+                <div class="hitung-wrapper">
+                    <div class="row mx-auto hitung-content align-items-center">
+                        <div class="col form text">
+                            <div class="box-hitung d-flex justify-content-center flex-column">
+                                <h1 class="mb-4">Hitung Kalori Anda</h1>
+                                <form action="">
+                                    <label>Usia:</label>
+                                    <input type="number" id="usia" required /><br/>
+                                    Pilh Jenis Kelamin
+                                    <select id="jenis-kelamin" required>
+                                        <option value="laki-laki">Laki-laki</option>
+                                        <option value="perempuan">Perempuan</option></select><br/>
+                                    Tinggi Badan (cm):
+                                    <input type="number" id="tinggi-badan" required /><br/>
+                                    Berat Badan (kg):
+                                    <input type="number" id="berat-badan" required /><br/>
+                                    <button type="button" id="tombol">Hitung</button>
+                                    <div id="warning"></div>
+                                </form>
 
-                                <div class="txtb">
-                                    <select name="Jenis Kelamin">
-                                        <option value="1">Jenis Kelamin</option>
-                                        <option value="2">Laki-laki</option>
-                                        <option value="3">Perempuan</option>
-                                    </select>
-                                </div>
-
-                                <div class="txtb">
-                                    <input type="text" placeholder="Masukkan Berat Badan Anda" />
-                                </div>
-
-                                <div class="txtb">
-                                    <input type="text" placeholder="Masukkan Tinggi Badan Anda" />
-                                </div>
-                        <input type="submit" class="math-btn" value="Hitung"/>
-                        </form>
+                                <div id="hasil"></div>
+                                <div id="tombol-hasil"></div>
+                                
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+      
 
         <!--Footer-->
         <footer class="footer">
