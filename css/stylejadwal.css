@@ -1,44 +1,44 @@
 * {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-transition: 0.3s ease-in-out;
-font-family: var(--plus-jakarta-sans);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.3s ease-in-out;
+    font-family: var(--plus-jakarta-sans);
 }
 
 :root {
---primary-color: #56c4f2;
---secondary-color: #32a9dc;
---third-color: #00b3ff;
---plus-jakarta-sans: "Plus Jakarta Sans", sans-serif;
---rubik: "Rubik", sans-serif;
+    --primary-color: #56c4f2;
+    --secondary-color: #32a9dc;
+    --third-color: #00b3ff;
+    --plus-jakarta-sans: "Plus Jakarta Sans", sans-serif;
+    --rubik: "Rubik", sans-serif;
 }
 
 /* navbar */
-.nav-link {
-color: gray;
+    .nav-link {
+    color: gray;
 }
 
 .nav-link.active {
-color: var(--primary-color) !important;
-font-weight: 600;
+    color: var(--primary-color) !important;
+    font-weight: 600;
 }
 .bx-menu {
-color: var(--primary-color);
+    color: var(--primary-color);
 }
 .navbar {
-z-index: 9;
-background-color: white;
-box-shadow: 0 0 20px rgba(0, 0, 0, 0.068);
+    z-index: 9;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.068);
 }
 .navbar-toggler.active {
-transform: rotate(90deg);
+    transform: rotate(90deg);
 }
 .navbar-toggler:focus {
-box-shadow: none;
+    box-shadow: none;
 }
 .nav-link:hover {
-color: var(--primary-color);
+    color: var(--primary-color);
 }
 
 #user {
@@ -46,207 +46,225 @@ color: var(--primary-color);
     color: var(--primary-color);
 }
 
-/* update */
-
 .sign .login button {
-background: #56c4f2;
-border: 1px solid #56c4f2;
-border-radius: 20px;
-border: none;
-color: white;
-padding: 6px 16px;
-font-size: 14px;
-font-weight: 500;
+    background: #56c4f2;
+    border: 1px solid #56c4f2;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    padding: 6px 16px;
+    font-size: 14px;
+    font-weight: 500;
 }
 .sign .signup button {
-padding: 6px 16px;
-border: none;
+    padding: 6px 16px;
+    border: none;
     border: 1px solid #56c4f2;
-color: var(--primary-color);
-font-size: 14px;
-font-weight: 500;
-border-radius: 20px;
-background-color: transparent;
+    color: var(--primary-color);
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 20px;
+    background-color: transparent;
 }
 
 /* hover */
 .sign ul li a:hover {
-color: var(--primary-color);
+    color: var(--primary-color);
 }
 .sign .login button:hover {
-background: var(--secondary-color);
+    background: var(--secondary-color);
 }
 .sign .signup button:hover {
-color: white;
-background: var(--secondary-color);
+    color: white;
+    background: var(--secondary-color);
 }
 /* hover */
-
 /* navbar */
 
 /* hero */
-<<<<<<< HEAD:css/style.css
-.hero .container-hero{
-width: 80vh;
-position: sticky;
-padding-top: 10%;
-margin-left: 1%;
-=======
-.hero{
-width: 100vh;
-position: relative;
-padding-top: 5%;
->>>>>>> 459d22ebf191dbbf850b01dd5a37597b3f8d6e2c:style.css
+.tittle{
+    width: auto;
+    position: relative;
+    padding-top: 5%;
+    margin-left: 10px;
+    color: #56c4f2;
+}
+
+.judul{
+    padding-bottom: 2%;
+}
+
+.subjudul{
+    padding-bottom: 2%;
 }
 /* hero */
 
 /* content */
 
-h2, h4{
-    color: #56C4F2;
+.days{
+    text-align: center;
 }
 
 .card{
+    position: relative;
+    margin: auto;
+    /* width: 14rem; */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-olahraga{
+    display: flex;
+    height: 100vh;
+}
+
+.days, h4{
+    color: #56c4f2;
 }
 
 .hr-lines{
     position: relative;
-    max-width: fit-content;
-    text-align: center;
+    color: #56C4F2;
+    width: auto;
 }
 
-.hr-lines:after{
-    content:" ";
-    height: 2px;
-    width: 185vh;
-    background: #56C4F2;
-    display: inline-block;
-    position: absolute;
-    top: 50%;
-  }
-  
-<<<<<<< HEAD:css/style.css
-.rekomendasi-makanan, .rekomendasi-olahraga{
-    padding: 2%;
+.tittle, .rekomendasi-olahraga{
+    padding: 10% 5% 0 5%;
 }
-=======
->>>>>>> 459d22ebf191dbbf850b01dd5a37597b3f8d6e2c:style.css
+
+.jadwal{
+    margin-left: 1%;
+    width: auto;
+}
+
+.background-img{
+    background-image: url("https://i.ibb.co/QYsCxQN/bg-jadwal.jpg");
+    background-size: contain;
+    /* width: auto; */
+    
+}
+
+.rekomendasi-olahraga{
+    padding-bottom: 5%;
+}
+/* .jadwal{
+
+} */
+
 /* content */
-  
+
 /* footer */
 .footer {
-padding-top: 100px;
-background-color: #d1eeff36;
+    padding-top: 100px;
+    background-color: #d1eeff36;
 }
 .footer .footer-wrapper {
-display: flex;
-width: 100%;
-gap: 20px;
+    display: flex;
+    width: 100%;
+    gap: 20px;
 }
 .footer ul {
-padding: 0;
+    padding: 0;
 }
 .footer .footer-wrapper .col img {
-margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 .footer .footer-wrapper .col p {
-margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 .footer .footer-wrapper .col .email,
 .footer .footer-wrapper .col .phone {
-display: flex;
-align-items: center;
-gap: 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 .footer .footer-wrapper .col .email i,
 .footer .footer-wrapper .col .phone i {
-padding-top: 4px;
+    padding-top: 4px;
 }
 
 .footer-wrapper .col .phone {
-margin-top: 8px;
+    margin-top: 8px;
 }
 .footer-wrapper .col .email a,
 .footer-wrapper .col .phone a {
-text-decoration: none;
-color: black;
+    text-decoration: none;
+    color: black;
 }
 .footer .footer-wrapper .col h3 {
-color: var(--primary-color);
-margin-bottom: 20px;
+    color: var(--primary-color);
+    margin-bottom: 20px;
 }
 
 .footer .footer-wrapper .col ul li {
-list-style-type: none;
+    list-style-type: none;
 }
 .footer .footer-wrapper .col ul li a {
-text-decoration: none;
-color: black;
+    text-decoration: none;
+    color: black;
 }
 .footer .footer-wrapper .col .form-langganan input {
-padding: 8px 16px;
-border-radius: 20px;
-border: 1px solid var(--primary-color);
-outline: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    border: 1px solid var(--primary-color);
+    outline: none;
 }
 .footer .footer-wrapper .col .form-langganan input::placeholder {
-color: #a0a1a2;
+    color: #a0a1a2;
 }
 .footer #button-langganan {
-background-color: var(--primary-color);
-color: white;
-font-size: 14px;
-font-weight: 500;
-margin-left: 10px;
-height: 100%;
-text-align: center;
-cursor: pointer;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 10px;
+    height: 100%;
+    text-align: center;
+    cursor: pointer;
 }
 /* footer hover */
 .footer .footer-wrapper .col a:hover {
-text-decoration: none;
-color: var(--primary-color);
+    text-decoration: none;
+    color: var(--primary-color);
 }
 .footer .footer-wrapper .col .email:hover i {
-color: var(--primary-color);
+    color: var(--primary-color);
 }
 .footer .footer-wrapper .col .phone:hover i {
-color: var(--primary-color);
+    color: var(--primary-color);
 }
 .footer #button-langganan:hover {
-background-color: var(--secondary-color);
+    background-color: var(--secondary-color);
 }
 /* footer hover */
 
 /* ex-footer */
 .ex-footer {
-padding: 5px 0;
-border-top: 1px solid var(--primary-color);
-margin-top: 100px;
+    padding: 5px 0;
+    border-top: 1px solid var(--primary-color);
+    margin-top: 100px;
 }
 .ex-footer-wrapper .icon i {
-color: var(--primary-color);
-font-size: 22px;
+    color: var(--primary-color);
+    font-size: 22px;
 }
 .ex-footer-wrapper .copyright p {
-font-size: 14px;
-font-weight: 400;
-color: var(--primary-color);
-text-align: end;
-margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--primary-color);
+    text-align: end;
+    margin: 0;
 }
 .ex-footer-wrapper .sosmed {
-display: block;
+    display: block;
 }
 
 /* ex-footer */
 /* footer */
 
 @media (max-width: 991.98px) {
-.hero-wrapper {
+.tittle-wrapper {
     justify-content: center;
-    padding-top: 80px;
+    padding-top: 100px;
 }
 #title {
     font-size: 36px;
