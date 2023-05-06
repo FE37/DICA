@@ -80,9 +80,8 @@
 }
 .bx-menu {
   color: var(--primary-color);
-  font-size: 44px!important;
+  font-size: 36px!important;
 }
-
 /*Jadwal*/
 #user{
   font-size: 40px;
