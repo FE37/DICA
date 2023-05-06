@@ -42,7 +42,8 @@ btnHitung.addEventListener("click", function () {
   hasil.innerHTML = "Kebutuhan kalori Anda: " + Math.round(kalori) + " kkal";
 
   var link = document.createElement("a");
-  link.innerHTML = "Lihat rekomendasi makanan";
+  link.innerHTML =
+    "Lihat rekomendasi makanan";
   if (jenisKalori == "rendah") {
     link.href = "rekomendasi/rekomendasidietrendah.html";
   } else if (jenisKalori == "normal") {
