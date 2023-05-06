@@ -97,6 +97,36 @@ padding-top: 5%;
 }
 /* hero */
 
+/* rekomendasi makanan */
+.rekomendasi-makanan .card-title{
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 24px;
+}
+.rekomendasi-makanan .card-text{
+    font-weight: 300;
+    font-size: 14px;
+}
+/* rekomendasi makanan */
+
+/* rekomendasi olahraga */
+.rekomendasi-olahraga .card-title{
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 24px;
+}
+.rekomendasi-olahraga .card-text{
+    font-weight: 300;
+    font-size: 14px;
+}
+/* rekomendasi olahraga */
+/* button */
+.btn-primary{
+    background-color: var(--primary-color)!important;
+    border: none;
+    padding: 12px 20px;
+}
+/* button */
 /* content */
 
 h2, h4{
