@@ -90,6 +90,7 @@ export function Footer() {
   width: 100%;
   gap: 20px;
 }
+
 .footer ul {
   padding: 0;
 }
@@ -191,6 +192,9 @@ export function Footer() {
 
 @media (max-width: 991.98px) {
   /* footer */
+    #img-footer{
+    width: 30%!important;
+  }
   .footer {
     padding-top: 50px;
   }
@@ -212,6 +216,11 @@ export function Footer() {
     display: block;
   }
   /* footer */
+}
+@media (max-width: 576px) {
+      #img-footer{
+    width: 40%!important;
+  }
 }
 
       </style>
