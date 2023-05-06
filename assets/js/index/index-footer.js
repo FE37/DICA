@@ -6,7 +6,7 @@ export function indexFooter() {
           <div class="col">
             <img
               src="https://i.ibb.co/FzRc6JC/logo-primary.png"
-              alt="logo-primary"
+              alt="logo-primary" id="img-footer"
               width="60%"
             />
             <p>

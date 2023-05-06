@@ -488,7 +488,7 @@ body{
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
-  max-width: 500px;
+  max-width: 100%;
 }
 
 .makanan .content .card .text .link {
@@ -621,7 +621,7 @@ body{
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
-  max-width: 500px;
+  max-width: 100%;
 }
 
 .olahraga .content .card .text .link {
@@ -684,8 +684,8 @@ body{
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
 }
-.kontak .col {
-  z-index: 2;
+.kontak .ck {
+  z-index: 3;
 }
 .kontak .text h1 {
   font-family: var(--plus-jakarta-sans);
@@ -723,7 +723,128 @@ body{
 @media (max-width: 991.98px) {
   .hero-wrapper {
     justify-content: center;
-    padding-top: 80px;
+  }
+  #title {
+    font-size: 48px;
+  }
+  #description {
+    font-family: "Plus Jakarta Sans";
+    font-size: 20px;
+    color: #a0a1a2;
+  }
+  #btn-hero a {
+    font-size: 18px;
+  }
+  /* service */
+  .services {
+    position: relative;
+    width: 100%;
+    bottom: -100px;
+    z-index: 1;
+  }
+    .diet {
+  padding: 200px 0 100px 0;
+}
+  .diet .diet-header h1 {
+    font-family: var(--plus-jakarta-sans);
+    font-weight: 700;
+    font-size: 36px;
+    color: var(--primary-color);
+  }
+  .diet .diet-header p {
+    margin-top: 10px;
+    color: #a0a1a2;
+    font-family: var(--plus-jakarta-sans);
+    font-weight: 300;
+    font-size: 14px;
+    width: 100%;
+  }
+  .diet .btn-diet button {
+    background: var(--primary-color);
+    border: 1px solid #56c4f2;
+    border-radius: 12px;
+    color: white;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 60px;
+  }
+  /* service */
+
+  /* tentang kami */
+  .tentang-kami .row .img .border-img {
+    display: none;
+  }
+  .tentang-kami #judul {
+    font-weight: 700;
+    font-size: 36px;
+    width: 100%;
+  }
+  .tentang-kami .row .content h1 {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  .tentang-kami .row .content p {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  .tentang-kami .row .content button {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+
+  /* tentang kami */
+
+  /* gizi  seimbang */
+
+  .gizi .text h1 {
+    font-family: var(--plus-jakarta-sans);
+    font-weight: 700;
+    font-size: 40px;
+  }
+  .gizi .text p {
+    margin-top: 10px;
+    font-family: var(--plus-jakarta-sans);
+    font-weight: 300;
+    font-size: 14px;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .gizi .text button {
+    background: transparent;
+    border: 2px solid var(--primary-color);
+    border-radius: 12px;
+    color: var(--primary-color);
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: 00;
+    width: fit-content;
+    margin: 20px auto 0 auto;
+  }
+  /* gizi seimbang */
+
+  /* makanan */
+  .makanan .content {
+    margin-top: 20px;
+  }
+  /* makanan */
+  /* olahraga */
+  .olahraga .content {
+    margin-top: 20px;
+  }
+  /* olahraga */
+  /* footer */
+  #img-footer{
+    width: 30%!important;
+  }
+  /* footer */
+}
+@media (max-width: 576px) {
+  .hero-wrapper {
+    justify-content: center;
+    padding-top: 20px;
   }
   #title {
     font-size: 36px;
@@ -743,6 +864,9 @@ body{
     bottom: -100px;
     z-index: 1;
   }
+  .diet {
+  padding: 200px 0 80px 0;
+}
   .diet .diet-header h1 {
     font-family: var(--plus-jakarta-sans);
     font-weight: 700;
@@ -819,6 +943,9 @@ body{
     width: fit-content;
     margin: 20px auto 0 auto;
   }
+  .gizi .row {
+  height: 40vh;
+}
   /* gizi seimbang */
 
   /* makanan */
@@ -831,4 +958,7 @@ body{
     margin-top: 20px;
   }
   /* olahraga */
+    #img-footer{
+    width: 40%!important;
+  }
 }
