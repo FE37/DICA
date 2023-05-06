@@ -12,6 +12,10 @@
   --third-color: #00b3ff;
   --plus-jakarta-sans: "Plus Jakarta Sans", sans-serif;
   --rubik: "Rubik", sans-serif;
+  --animate-delay: 0.1s;
+}
+body{
+  overflow-x: hidden;
 }
 
 /* navbar */
@@ -80,6 +84,7 @@
 
 /* hover */
 /* navbar */
+
 
 /* hero */
 .hero-wrapper {
