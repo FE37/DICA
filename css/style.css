@@ -29,6 +29,7 @@ body{
 }
 .bx-menu {
   color: var(--primary-color);
+  font-size: 44px!important;
 }
 .navbar {
   z-index: 9;
