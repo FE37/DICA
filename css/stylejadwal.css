@@ -66,6 +66,10 @@
     border-radius: 20px;
     background-color: transparent;
 }
+.bx-menu {
+  color: var(--primary-color);
+  font-size: 44px!important;
+}
 
 /* hover */
 .sign ul li a:hover {

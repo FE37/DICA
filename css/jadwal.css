@@ -78,6 +78,10 @@
   color: white;
   background: var(--secondary-color);
 }
+.bx-menu {
+  color: var(--primary-color);
+  font-size: 44px!important;
+}
 
 /*Jadwal*/
 #user{

@@ -40,7 +40,10 @@ box-shadow: none;
 .nav-link:hover {
 color: var(--primary-color);
 }
-
+.bx-menu {
+  color: var(--primary-color);
+  font-size: 44px!important;
+}
 #user {
     font-size: 40px;
     color: var(--primary-color);
