@@ -14,7 +14,7 @@ function parseDietNormal(res) {
   const idNormal = document.getElementById("diet-normal");
   res.forEach((data) => {
     idNormal.innerHTML += `
-          <div class="col-4">
+          <div class="col">
             <div class="card mb-3">
               <div class="row no-gutters">
                 <div class="col-md-4">
@@ -55,7 +55,7 @@ function parseDietRendah(res) {
   const idRendah = document.getElementById("diet-rendah");
   res.forEach((data) => {
     idRendah.innerHTML += `
-          <div class="col-4">
+          <div class="col">
             <div class="card mb-3">
               <div class="row no-gutters">
                 <div class="col-md-4">
@@ -95,7 +95,7 @@ function parseDietTinggi(res) {
   const idTinggi = document.getElementById("diet-tinggi");
   res.forEach((data) => {
     idTinggi.innerHTML += `
-          <div class="col-4">
+          <div class="col">
             <div class="card mb-3">
               <div class="row no-gutters">
                 <div class="col-md-4">
